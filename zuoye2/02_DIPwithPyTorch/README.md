@@ -1,24 +1,58 @@
-# Assignment 2 - DIP with PyTorch
+# 02_DIPwithPyTorch
 
-### In this assignment, you will implement traditional DIP (Poisson Image Editing) and deep learning-based DIP (Pix2Pix) with PyTorch.
+This is an implementation of traditional DIP (Possion Image Editing) and deep learning-based DIP (Pix2Pix) with PyTorch.
 
-### Resources:
-- [Assignment Slides](https://pan.ustc.edu.cn/share/index/66294554e01948acaf78)  
-- [Paper: Poisson Image Editing](https://www.cs.jhu.edu/~misha/Fall07/Papers/Perez03.pdf)
-- [Paper: Image-to-Image Translation with Conditional Adversarial Nets](https://phillipi.github.io/pix2pix/)
-- [Paper: Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/abs/1411.4038)
-- [PyTorch Installation & Docs](https://pytorch.org/)
+## Requirements
 
----
+To install requirements:
 
-### 1. Implement Poisson Image Editing with PyTorch.
-Fill the [Polygon to Mask function](run_blending_gradio.py#L95) and the [Laplacian Distance Computation](run_blending_gradio.py#L115) of 'run_blending_gradio.py'.
+```bash
+pip install -r requirements.txt
+```
 
+## Poisson Image Editing
 
-### 2. Pix2Pix implementation.
-See [Pix2Pix subfolder](Pix2Pix/).
+### Results
 
----
-### Requirements:
-- 请自行环境配置，推荐使用[conda环境](https://docs.anaconda.com/miniconda/)
-- 按照模板要求写Markdown版作业报告
+<img src="results/srcs2.png" alt="Source & Target" width="800">
+
+<img src="results/blended.png" alt="Source & Target" width="800">
+
+## Deep Learning-Based Pix2Pix
+
+### Datasets
+
+To download `facades` dataset, run this command on Linux:
+
+```bash
+bash ./download_facades_dataset.sh
+```
+
+To download `cityscapes` dataset, run this command on Linux:
+
+```bash
+sed -e 's/facades/cityscapes/g' ./download_facades_dataset.sh | bash
+```
+
+### Training
+
+To train the model(s) in the paper, run this command:
+
+```bash
+python -u train.py > train.log
+```
+
+### Pre-Trained Model
+
+A pre-trained model can be downloaded [here](https://github.com/cleo676767/DIP-Teaching-Assigment-1/edit/main/zuoye2/02_DIPwithPyTorch). Dataset `cityscapes` is used. 
+
+### Results
+
+Validation after 400 epochs:
+
+<img src="results/after400.png" alt="After 400 epochs" width="800">
+
+Validation after 800 epochs:
+
+<img src="results/after800.png" alt="After 800 epochs" width="800">
+
