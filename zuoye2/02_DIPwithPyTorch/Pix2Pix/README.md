@@ -14,9 +14,9 @@ pip install -r requirements.txt
 
 ### Results
 
-<img src="results/srcs.png" alt="Source & Target" width="800">
+![Source & Target](results/srcs.png)
 
-<img src="results/blended.png" alt="Source & Target" width="800">
+![Source & Target](results/srcs.png)
 
 ## Deep Learning-Based Pix2Pix
 
