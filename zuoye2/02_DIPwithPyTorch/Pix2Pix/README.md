@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ![result](results/srcs.png)
 
-![result2](results/srcs.png)
+![result2](results/srcs2.png)
 
 ## Deep Learning-Based Pix2Pix
 
@@ -50,12 +50,13 @@ A pre-trained model can be downloaded [here](https://github.com/iw16/DIP-Teachin
 
 Validation after 400 epochs:
 
-<img src="results/after400.png" alt="After 400 epochs" width="800">
+![result](results/after4002.png)
+
 
 Validation after 800 epochs:
 
-<img src="results/after800.png" alt="After 800 epochs" width="800">
+![result](results/after8002.png)
 
 ### Contributing
 
->📋 This repository is under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. Welcome to create [issues](https://github.com/iw16/DIP-Teaching/issues) and/or [PRs](https://github.com/iw16/DIP-Teaching/pulls). 
+
