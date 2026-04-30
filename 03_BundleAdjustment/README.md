@@ -45,3 +45,11 @@ Task 1: Bundle Adjustment
 Task 2: COLMAP Reconstruction
 ![alt text](<2026-04-29 16-54-34.gif>)
  
+## Contributing
+
+>📋 This repository is under https://github.com/cleo676767/DIP-Teaching-Assigment-1/edit/main/03_BundleAdjustment
+
+## Acknowledgements
+
+- Thanks to the https://developer.nvidia.com/cuda-11-8-0-download-archive
+- Thanks to [face-alignment](https://github.com/1adrianb/face-alignment) by [Adrian Bulat](https://github.com/1adrianb). ](https://github.com/facebookresearch/pytorch3d?tab=contributing-ov-file#)
