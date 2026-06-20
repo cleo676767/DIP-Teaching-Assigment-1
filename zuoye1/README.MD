@@ -15,3 +15,7 @@
 ### 第二部分：
 - 图像变换：在目标图像上点击起始点和终点之后，图形可以实现变换，如视频中
 <img src="pics/2.gif-ezgif.com-video-to-gif-converter.gif" alt="Source & Target" width="800">
+
+### 文件来源
+
+(https://github.com/cleo676767/DIP-Teaching-Assigment-1/edit/main/zuoye2/02_DIPwithPyTorch). Dataset `cityscapes` is used. 
