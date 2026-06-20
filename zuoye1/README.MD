@@ -18,4 +18,4 @@
 
 ### 文件来源
 
-(https://github.com/cleo676767/DIP-Teaching-Assigment-1/edit/main/zuoye2/02_DIPwithPyTorch). Dataset `cityscapes` is used. 
+(https://github.com/cleo676767/DIP-Teaching-Assigment-1/tree/main/zuoye1/pics). Dataset `cityscapes` is used. 
